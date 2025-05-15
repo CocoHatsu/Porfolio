@@ -10,6 +10,7 @@ const Home = () => {
           <li>Projects</li>
           <li>Resume</li>
           <li>Contact</li>
+          
         </ul>
       </div>
       <div className='Introduction'>
