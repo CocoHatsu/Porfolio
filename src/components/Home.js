@@ -11,6 +11,7 @@ const Home = () => {
           <li>Resume</li>
           <li>Contact</li>
         </ul>
+        
       </div>
       <div className='Introduction'>
         <div className='img-container'>
