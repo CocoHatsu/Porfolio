@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import {a} from 'react-scroll'
 
 const Home = () => {
-   
 
   return (
     <div className='wrapper'>
