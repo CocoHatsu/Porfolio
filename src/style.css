@@ -1,0 +1,242 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+.wrapper {
+    /* background-image: url("../public/Dark4.jpg"); */
+    
+    background-repeat:repeat; 
+    background-size: contain;
+    background-color: black;
+    position: relative;
+
+    .nav {
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        backdrop-filter: blur(100px);
+        background: transparent;
+        z-index: 2;
+
+        ul {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            background-color: black;
+            border-radius: 25px;
+            padding: 3px 27px;
+
+            a {
+                text-decoration: none;
+            }
+
+
+            li {
+                list-style: none;
+                color: white;
+                text-decoration: none;
+                font-weight: 500;
+
+            }
+        }
+    }
+
+    .Introduction {
+        position: relative;
+        display: flex;
+        gap: 10px;
+        color: White;
+        border-color: purple;
+        background-color: red;
+        
+        padding: 20px;
+    }
+
+    .Intro {
+        
+        padding: 10px;
+        background-color: rgb(53, 35, 43);
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding-top: 1px;
+        flex: 1;
+
+    }
+
+
+    .img-container {
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        flex-direction: row;
+        padding: 15px;
+        height: 100%;
+        width: 50%;
+        
+        
+    }
+    .img-inside-container{
+        /* padding-left:20px; */
+        margin-left: auto;
+
+
+    }
+    .text-inside-container{
+        /* padding-right:; */
+        font-size: 24px;
+
+    }
+
+    .profile {
+        
+        width: 190px;
+        height: 200px;
+        border-radius: 50%;
+
+
+    }
+
+    .Skills {
+        
+        margin-top: 10px;
+        color: white;
+        display: flex;
+
+    }
+
+    .Projects {
+
+        
+        margin-top: 10px;
+        padding: 50px 50px 20em 50px;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+
+    }
+
+    .project {
+        padding-top: 1px;
+        
+        text-align: center;
+        color: white;
+        scroll-margin-top: 400px;
+    }
+
+    .project-container {
+        display: flex;
+        
+        padding: 5px 5px 10em;
+        gap: 5px;
+        justify-content: center;
+        color: white;
+
+    }
+
+    .projecthead {
+        margin-bottom: 60px;
+        ;
+    }
+
+    .Automatic {
+        
+        padding-bottom: 20px;
+        text-align: center;
+
+
+    }
+
+    .Face {
+       
+        padding: 10px;
+        text-align: center;
+
+    }
+
+    .Upload {
+        text-align: center;
+        
+        padding-bottom: 15em;
+    }
+
+    .Resume {
+        
+        margin-top: 10px;
+        padding: 50px 50px 50px 50px;
+        text-align: center;
+
+        color: white;
+
+
+    }
+
+    .Contact {
+        
+        margin-top: 10px;
+        padding: 50px 50px 50px 50px;
+        text-align: center;
+        color: white;
+
+        background: rgba(156, 156, 156, 0.164);
+        backdrop-filter: blur(1px);
+        -webkit-backdrop-filter: blur(10px);
+        /* for Safari */
+        
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    font-weight: 500;
+}
+
+/* Form Layout */
+.form {
+    max-width: 200px;
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 20em;
+
+
+
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.field3 input {
+    width: 200px;
+    height: 100px;
+
+}
+
+
+/* Label Styling */
+label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    /* Spacing between label and input */
+    font-weight: bold;
+    color: white;
+}
+
+/* Input Styling */
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+}
+
+/* Message Input with Extra Bottom Padding */
+input[name="message"] {
+    padding-bottom: 20px;
+    /* Extra space at the bottom */
+}
+
