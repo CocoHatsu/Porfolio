@@ -4,7 +4,7 @@ html {
 
 
 .wrapper {
-    border: 2px solid #7928ca;
+    /* border: 2px solid #7928ca; */
     /* background-image: url("../public/Dark4.jpg"); */
 
     background-repeat: repeat;
@@ -189,7 +189,7 @@ html {
 
     .Projects {
 
-        border: 1px solid red;
+        /* border: 1px solid red; */
         margin-top: 20px;
         padding: 50px 50px 10em 50px;
         display: flex;
@@ -200,7 +200,7 @@ html {
 
     .project {
         padding-top: 1px;
-        border: 2px solid #7928ca;
+        /* border: 2px solid #7928ca; */
 
         text-align: center;
         color: white;
@@ -208,13 +208,19 @@ html {
     }
 
     .project-container {
-        border: 1px solid #7928ca;
+        /* border: 1px solid #7928ca; */
         display: flex;
 
-        padding: 5px 5px 10em;
-        gap: 5px;
+        padding: 20px 20px 5em 20px;
+        gap: 50px;
         justify-content: center;
         color: white;
+        /* box-shadow:
+    0 0 5px #00bfff,
+    0 0 15px #00bfff,
+    0 0 30px #00bfff;
+  border: 1px solid rgba(0, 191, 255, 0.3); */
+  
 
     }
 
@@ -225,7 +231,7 @@ html {
 
     .Automatic {
 
-        padding-bottom: 20px;
+        transition: all 0.3s ease-in-out;
         text-align: center;
         border: 1px solid purple;
         border-style: ridge;
@@ -235,19 +241,56 @@ html {
 
     .Face {
 
-        padding: 10px;
+        transition: all 0.3s ease-in-out;
         text-align: center;
         border: 1px solid purple;
         border-style: ridge;
+
     }
 
     .Upload {
         text-align: center;
 
-        padding-bottom: 15em;
+        transition: all 0.3s ease-in-out;
         border: 1px solid purple;
         border-style: ridge;
+        
     }
+  
+    
+    @keyframes faceglowPulse {
+  0% {
+    box-shadow: 0 0 5px #ff004c, 0 0 15px #ff004c, 0 0 30px #ff004c;
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0 0 15px #ff3366, 0 0 25px #ff3366, 0 0 40px #ff3366;
+    transform: scale(1.03);
+  }
+  100% {
+    box-shadow: 0 0 5px #ff004c, 0 0 15px #ff004c, 0 0 30px #ff004c;
+    transform: scale(1.5);
+  }
+}
+.Face:hover {
+  animation: faceglowPulse 1.5s ease-in-out infinite;
+  cursor: pointer;
+  background-color: #7928ca;
+}
+  .Upload:hover {
+  animation: faceglowPulse 1.5s ease-in-out infinite;
+  cursor: pointer;
+  background-color: #a30b1ff3;
+}
+  .Automatic:hover {
+  animation: faceglowPulse 1.5s ease-in-out infinite;
+  cursor: pointer;
+  background-color: #a30b1ff3;
+}
+
+    
+  
+
 
     .Resume {
         margin-top: 10px;
@@ -499,8 +542,40 @@ input[name="message"] {
     margin-bottom: 5px;
 
 }
+/* Shadow box (light outside border) */
+.shadow-b{
+     box-shadow:
+    0 0 5px #00bfff,
+    0 0 15px #00bfff,
+    0 0 30px #00bfff;
+  border: 1px solid rgba(0, 191, 255, 0.3);
+}
+.shadow-pur{
+     box-shadow:
+    0 0 5px #8815f4,
+    0 0 15px #8815f4,
+    0 0 30px #8815f4;
+  border: 1px solid rgba(0, 191, 255, 0.3);
+}
+.shadow-r{
+    box-shadow: 
+    0 0 5px #a30b1ff3,
+    0 0 15px#a30b1ff3,
+    0 0 30px #a30b1ff3;
+  border: 1px solid rgba(0, 191, 255, 0.3);
+}
+/* Animeted */
+.animate-con{
+    animation: float 4s ease-in-out infinite;
+    transition: transform 0.3s;
+
+}
 
 /* //===width== */
+.col-w-h{
+width:400px;
+height: 400px;
+}
 .col-1-5 {
     width: 20%;
 }
@@ -724,6 +799,8 @@ a {
         padding: 8px 10px;
     }
 }
+/* text-align */
+
 
 /* drag and drop skills */
 

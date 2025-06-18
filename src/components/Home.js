@@ -110,32 +110,32 @@ const Home = () => {
 
 
       <div className='Projects' id='projectss'><h1 className='projecthead' > </h1>
-        <div class='project'><h1>Projects</h1></div>
+        <div class='project font-bold small'><h1>Projects</h1></div>
         <div className='project-container'>
-          <div className='Automatic'><h5>Automatic Parking System</h5>
+          <div className='Automatic col-w-h shadow-pur animate-con b-r-20'><h3>Automatic Parking System</h3>
             <ol>
-              <li>Designed and programmed an Arduino-based control system href detect available parking slots using Ultrasonic Sensors.</li>
-              <li>Controlled Servo Motors for automated gate operation upon successful verification.</li>
-              <li>Ensured seamless data flow between Arduino and the LED screen for real-time display</li>
+              <li><p className='t-a-l'>Designed and programmed an Arduino-based control system href detect available parking slots using Ultrasonic Sensors.</p></li>
+              <li><p className='t-a-l'>Controlled Servo Motors for automated gate operation upon successful verification.</p></li>
+              <li><p className='t-a-l'>Ensured seamless data flow between Arduino and the LED screen for real-time display</p></li>
             </ol>
 
           </div>
 
-          <div className='Face'><h5>Face Recognition</h5>
-            <div className='points'>
+          <div className='Face col-w-h shadow-r b-r-20'><h3>Face Recognition</h3>
+            <div className='points '>
               <ol>
-                <li>Developed real-time face detection using OpenCV and Haar Cascades for efficient image processing.</li>
-                <li>Implemented face alignment and image augmentation techniques href improve model accuracy and robustness</li>
-                <li>Employed deep learning models (FaceNet, VGG-Face) for accurate facial feature extraction and face matching.</li>
+                <li><p className='t-a-l'>Developed real-time face detection using OpenCV and Haar Cascades for efficient image processing.</p></li>
+                <li><p className='t-a-l'>Implemented face alignment and image augmentation techniques href improve model accuracy and robustness</p></li>
+                <li><p className='t-a-l'>Employed deep learning models (FaceNet, VGG-Face) for accurate facial feature extraction and face matching.</p></li>
 
               </ol>
             </div>
           </div>
-          <div className='Upload'><h5 >Upload and Download file(text,word,and PDF etc) </h5>
+          <div className='Upload col-w-h shadow-pur b-r-20'><h3>Upload and Download file </h3>
             <ol>
-              <li>Designed a user-friendly web interface for secure file upload and download operations.</li>
-              <li>Developed a PHP backend href handle file uploads, server-side validation, and error management.</li>
-              <li>Enabled dynamic listing of available files for easy download by users.</li>
+              <li><p className='t-a-l'>Designed a user-friendly web interface for secure file upload and download operations.</p></li>
+              <li><p className='t-a-l'>Developed a PHP backend href handle file uploads, server-side validation, and error management.</p></li>
+              <li><p className='t-a-l'>Enabled dynamic listing of available files for easy download by users.</p></li>
             </ol>
           </div>
         </div>
